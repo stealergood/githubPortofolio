@@ -28,8 +28,9 @@
   },
   "typings": "./types/index.d.ts",
   "scripts": {
-    "start": "vite --mode production",
+    "start": "serve -s dist",
     "dev": "vite",
+    "heroku-postbuild": "npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "build:library": "vite build --config library.config.js",
@@ -40,7 +41,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.1",
+    "vite": "^4.5.0"
   },
   "devDependencies": {
     "@arifszn/blog-js": "^2.0.4",
@@ -60,7 +63,6 @@
     "react-hotjar": "^6.1.0",
     "react-icons": "^4.3.1",
     "tailwindcss": "^3.0.23",
-    "vite": "^4.5.0",
     "vite-plugin-pwa": "^0.16.3"
   },
   "keywords": [
