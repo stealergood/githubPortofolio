@@ -28,7 +28,7 @@
   },
   "typings": "./types/index.d.ts",
   "scripts": {
-    "start": "vite --mode production",
+    "start": "serve dist -l 3000",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
