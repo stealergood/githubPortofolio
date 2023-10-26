@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'stealergood', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'update', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -13,8 +13,8 @@ const config = {
   social: {
     linkedin: '-',
     instagram: 'denisaputra426',
-    telegram: '',
-    website: 'https://arifszn.com',
+    telegram: '@dny0805',
+    website: 'http://www.denny-ueu.biz.id',
     phone: '+6285710005077',
     email: 'ncstealer@gmail.com',
   },
