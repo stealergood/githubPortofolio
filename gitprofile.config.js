@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: '-',
+    linkedin: 'Denny Edy Saputra',
     instagram: 'denisaputra426',
     telegram: '@dny0805',
     website: 'http://www.denny-ueu.biz.id',
