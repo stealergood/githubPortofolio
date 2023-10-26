@@ -28,9 +28,8 @@
   },
   "typings": "./types/index.d.ts",
   "scripts": {
-    "start": "serve -s dist",
+    "start": "vite --mode production",
     "dev": "vite",
-    "heroku-postbuild": "npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "build:library": "vite build --config library.config.js",
