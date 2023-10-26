@@ -28,6 +28,7 @@
   },
   "typings": "./types/index.d.ts",
   "scripts": {
+    "start": "vite --mode production",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
